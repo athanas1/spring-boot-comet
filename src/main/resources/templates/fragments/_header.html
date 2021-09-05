@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <a th:href="@{/}"><img height="75px" th:src="@{/img/meteor.png}"></a>
+    <nav>
+        <ul>
+            <li><a th:href="@{/}">Home</a></li>
+            <li><a th:href="@{/information/cometfacts}">Comet Facts</a></li>
+            <li><a th:href="@{/information/morecometfacts}">Even more Comet Facts</a></li>
+            <li><a th:href="@{/information/howtoview}">How to view Neowise</a></li>
+        </ul>
+    </nav>
+</header>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    padding: 15px;
+    width: 35%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: crimson;
+}
+li a:active {
+    background-color: coral;
+}
+footer {
+    display: block;
+    color: darkred;
+    padding: 10px 10px;
+    background-color: orange;
+}

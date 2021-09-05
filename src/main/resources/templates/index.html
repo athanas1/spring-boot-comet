@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Neowise Comet- Everything you need to know</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2>
+    Neowise Comet - An overview
+</h2>
+<p>
+    The last weekend to see the Neowise comet is fast approaching and this
+    will be the only time you can see it for the next 7000 years!
+</p>
+<p>
+    Lets go over some facts about comets, like what they are, and how you can see the Neowise
+    comet yourself!
+</p>
+<img width="90%" th:src="@{img/comet-in-space.jpg}" alt="Comet in space">
+<p>
+    Content used from <a href="https://www.space.com/comet-neowise-strange-facts.html">www.space.com</a>
+    as well as <a href="https://krcrtv.com/news/local/three-easy-steps-to-finding-the-neowise-comet">KRCR news</a>
+    def not stolen
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
