@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Neowise Comet information</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h2> Neowise Comet</h2>
+<h3> What is the Neowise Comet?</h3>
+<p>  Officially known as C/2020 F3, Comet NEOWISE is a comet that was discovered on March 27, 2020,
+    by NEOWISE, the asteroid-hunting afterlife of the Wide-field Infrared Survey Explorer (WISE) mission.
+</p>
+<p>
+    The comet made its closest approach to the sun on July 3 but, until now, was only visible in the sky before dawn.
+    Now, for keen observers in the Northern Hemisphere, the comet has been getting higher in
+    the evening sky, sparkling northwest below the Big Dipper constellation.
+</p>
+<img class="right" width="70%" th:src="@{/img/neowise-comet-with-tree.jpg}" alt="Neowise Comet" >
+<br>
+<span> Neowise comet picture taken July 2020 (Image credit: NASA/Bill Dunford)</span>
+<p>
+    The reason the Neowise comet is so interesting is because the comet itself is so bright we are able to get more and better than we would typically.
+    The comet is so bright you can see it with just your eyes, no telescope needed!
+</p>
+<p>
+    Content used from <a href="https://www.space.com/comet-neowise-strange-facts.html">www.space.com</a>
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

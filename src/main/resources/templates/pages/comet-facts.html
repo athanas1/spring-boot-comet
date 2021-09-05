@@ -2,25 +2,35 @@
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Neowise Comet information</title>
+    <title>Neowise Comet information v2</title>
     <link rel="stylesheet" th:href="@{/style.css}">
 </head>
 <body>
 <div th:insert="fragments/_header :: header"></div>
-<h2> Neowise Comet</h2>
-<h3> What is the Neowise Comet?</h3>
-<p>  Officially known as C/2020 F3, Comet NEOWISE is a comet that was discovered on March 27, 2020,
-    by NEOWISE, the asteroid-hunting afterlife of the Wide-field Infrared Survey Explorer (WISE) mission.
+<h2> Just what exactly are comets?</h2>
+<p>
+    Comets are icy bodies in space that release gas or dust. They are often compared to dirty snowballs,
+    though recent research has led some scientists to call them snowy dirtballs. Comets contain dust, ice, carbon dioxide,
+    ammonia, methane and more. Astronomers think comets are leftovers from the material that initially formed the solar system about 4.6 billion years ago.
+    Some researchers believe that comets are what originally brought water and organics to earth.
 </p>
 <p>
-    The comet made its closest approach to the sun on July 3 but, until now, was only visible in the sky before dawn.
-    Now, for keen observers in the Northern Hemisphere, the comet has been getting higher in
-    the evening sky, sparkling northwest below the Big Dipper constellation.
+    As a comet gets closer to the sun, the ice on the surface of the nucleus begins turning into gas,
+    forming a cloud known as the coma. Radiation from the sun pushes dust particles away from the coma,
+    forming a dust tail, while charged particles from the sun convert some of the comet's gases into ions, forming an ion tail.
+    Since comet tails are shaped by sunlight and the solar wind, they always point away from the sun
 </p>
-<img th:src="@{img/neowise-comet-with-tree.jpg}">
+<img class="right" width="50%" th:src="@{/img/Mcnaught-comet.jpg}" alt="McNaught comet" >
+<br>
+<span> Comet McNaught C/2009 R1 was visible on June 6, 2010. Here you can see the visible ion trail and the glowing coma (Image credit: Michael Jäger) )</span>
 <p>
-    The reason the Neowise comet is so interesting is becasue the comet istelf is so bright we are able to get more and better than we would typically.
-    The comet is so bright you can see it with just your eyes, no telescope needed!
+    We can see a number of comets with the naked eye when they pass close to the sun because their comas and tails reflect
+    sunlight or even glow because of energy they absorb from the sun. However, most comets are too small or too faint to be seen without a telescope.
+    Comets also leave a trail of debris that can lead to meteor showers.
+</p>
+<br>
+<p>
+    Content used from <a href="https://www.space.com/53-comets-formation-discovery-and-exploration.html">www.space.com</a>
 </p>
 <div th:replace="fragments/_footer :: footer"></div>
 </body>

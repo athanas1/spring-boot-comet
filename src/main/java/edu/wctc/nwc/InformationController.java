@@ -7,14 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/information")
 public class InformationController {
 
-    @RequestMapping("/cometfacts")
-        public String showCometFacts1 () {
-            return "pages/comet-facts";
-        }
+    @RequestMapping("/neowisecometfacts")
+        public String showCometFacts1 () { return "pages/neowise-facts"; }
 
-    @RequestMapping("/morecometfacts")
+    @RequestMapping("/cometfacts")
     public String showCometFacts2 () {
-        return "pages/comet-facts-2";
+        return "pages/comet-facts";
     }
 
     @RequestMapping("/howtoview")

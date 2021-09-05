@@ -1,7 +1,7 @@
 body {
     font-family: Arial;
     padding: 15px;
-    width: 35%;
+    width: 60%;
     background-color: antiquewhite;
     text-align: center;
 }
@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: coral;
 }
 
 li {
@@ -37,7 +37,10 @@ li a:active {
 }
 footer {
     display: block;
-    color: darkred;
+    color: white;
     padding: 10px 10px;
-    background-color: orange;
+    background-color: coral;
+}
+.right {
+    float: outside;
 }
