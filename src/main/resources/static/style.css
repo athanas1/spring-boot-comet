@@ -17,6 +17,9 @@ ul {
     overflow: hidden;
     background-color: coral;
 }
+ol {
+    text-align: left;
+}
 
 li {
     display: inline-block;
